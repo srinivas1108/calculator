@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>My Calculator</h1>
+    <div id='calculator'>  
+        <div id='output'>0</div>
+        <hr>
+        <div id="below-screen">
+        <button id='clear' class="operator" onclick="erase()"> C</button>
+        <button id='backspace' class='operator' onclick="backSpace()"> CE</button>
+        <button id='modulo' class='operator'  value='%' onclick="show(value)"> %</button>
+        <button id='division' class='operator' value='/' onclick="show(value)"> /</button></br></br>
+    
+        <button id='seven' class='number' value='7' onclick="show(value)"> 7</button>
+        <button id='eight' class='number' value='8' onclick="show(value)"> 8</button>
+        <button id='nine' class='number' value='9' onclick="show(value)"> 9</button>
+        <button id='multiplication' class='operator'  value='*' onclick="show(value)"> X</button></br></br>
+
+        <button id='six' class='number' value='6' onclick="show(value)"> 6</button>
+        <button id='five' class='number' value='5' onclick="show(value)"> 5</button>
+        <button id='four' class='number' value='4' onclick="show(value)"> 4</button>
+        <button id='minus' class='operator'  value='-' onclick="show(value)">-</button><br><br>
+
+        <button id='three' class='number' value='3' onclick="show(value)"> 3</button>
+        <button id='two' class='number' value='2' onclick="show(value)"> 2</button>
+        <button id='one' class='number' value='1' onclick="show(value)"> 1</button>
+        <button id='plus' class='operator' value='+' onclick="show(value)">+</button><br><br>
+        
+
+        <button id='zero' class='number' value='0' onclick="show(value)">0</button>&nbsp;&nbsp;&nbsp;
+    
+        <button id='equal' class='operator' value='=' onclick="result()">=</button>
+    </div>
+    </div>  
+    <script src="fun.js"></script>
+    </body>
+</html>
